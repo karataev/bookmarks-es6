@@ -1,4 +1,5 @@
 import template from './categories.html';
+import './categories.scss';
 
 class CategoriesCtrl {
   constructor(Categories) {
@@ -7,7 +8,7 @@ class CategoriesCtrl {
   }
 
   $onInit() {
-    this.items = this.Categories.getItems();
+    this.items = this.Categories.getAll();
   }
 
   select(item) {

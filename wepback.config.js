@@ -6,7 +6,9 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.js$/, exclude: [/node_modules/], loader: 'ng-annotate!babel' },
-      { test: /\.html$/, loader: 'raw' }
+      { test: /\.html$/, loader: 'raw' },
+      { test: /\.css$/, loader: 'style!css' },
+      { test: /\.scss/, loader: 'style!css!sass' }
     ]
   }
 }

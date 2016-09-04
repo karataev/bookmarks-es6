@@ -1,0 +1,8 @@
+.category-item {
+  border: 1px solid gray;
+  padding: 10px;
+
+  &.active {
+    background-color: tomato;
+  }
+}

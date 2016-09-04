@@ -7,19 +7,23 @@ class Categories {
     this.selectedCategory = null;
 
     this.items = [
-      {id: 0, title: 'hoho'},
-      {id: 1, title: 'waaaa'}
+      {id: 0, title: 'Design'},
+      {id: 1, title: 'Development'},
+      {id: 2, title: 'Humour'}
     ]
 
   }
 
-  getItems() {
+  getAll() {
     return this.items;
   }
 
   select(category) {
     this.selectedCategory = category;
-    console.log('yooo!');
+  }
+
+  getSelected() {
+    return this.selectedCategory;
   }
 }
 
