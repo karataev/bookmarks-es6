@@ -19,5 +19,8 @@
     "raw-loader": "^0.5.1",
     "run-sequence": "^1.2.2",
     "webpack-stream": "^3.2.0"
+  },
+  "dependencies": {
+    "angular": "^1.5.8"
   }
 }
