@@ -4,7 +4,7 @@ class Categories {
   }
 
   init() {
-    this.selectedCategory = null;
+    this.selectedItem = null;
 
     this.items = [
       {id: 0, title: 'Design'},
@@ -18,12 +18,12 @@ class Categories {
     return this.items;
   }
 
-  select(category) {
-    this.selectedCategory = category;
+  select(item) {
+    this.selectedItem = item;
   }
 
   getSelected() {
-    return this.selectedCategory;
+    return this.selectedItem;
   }
 }
 
