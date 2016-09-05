@@ -1,4 +1,4 @@
 <h1>Bookmarks here</h1>
 <div ng-repeat="bookmark in $ctrl.bookmarks">
-  {{bookmark.title}}
+  <a ng-href="{{bookmark.link}}" target="_blank">{{bookmark.title}}</a>
 </div>

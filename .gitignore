@@ -2,3 +2,4 @@
 node_modules
 client/bundle.js
 client/bundle.js.map
+npm-debug.log
